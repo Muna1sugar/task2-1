@@ -1,7 +1,6 @@
 #include <WiFi.h>
 #include <Wire.h>
 #include <LiquidCrystal_I2C.h>
-
 LiquidCrystal_I2C LCD = LiquidCrystal_I2C(0x27, 16, 2);
 
 #define NTP_SERVER     "pool.ntp.org"
